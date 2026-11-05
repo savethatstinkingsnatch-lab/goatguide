@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Goatstead",
+      "hasCanvas": false,
+      "bodyTextLen": 1917,
+      "bodyTextHash": "f35248eae95159ceacc97697ef8e3a76b188e0bf1ef73840369fda0fd2fd5001",
+      "bodyTextPrefix": "Goatstead Field guide Guide Start Breeds Care Health Year Cleari",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Goatstead",
+      "hasCanvas": false,
+      "bodyTextLen": 1917,
+      "bodyTextHash": "f35248eae95159ceacc97697ef8e3a76b188e0bf1ef73840369fda0fd2fd5001",
+      "bodyTextPrefix": "Goatstead Field guide Guide Start Breeds Care Health Year Cleari",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
