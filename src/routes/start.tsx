@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { startChecks } from "@/data/guide";
 import { Button, CheckRow, Choice, Frame, PageIntro } from "@/components/ui";
+import { MilkBox } from "@/components/milk-box";
 import { useGuide } from "@/lib/store";
 
 export const Route = createFileRoute("/start")({
@@ -46,7 +47,9 @@ function recommend(goal: Goal, land: Land, climate: Climate) {
 
   if (goal === "pets" || land === "yard") {
     breeds.push({ id: "nigerian-dwarf", name: "Nigerian Dwarf" }, { id: "pygmy", name: "Pygmy" });
-    notes.push("Two wethers, or a wether and a doe. No buck in a yard. Grain is how pet males die of stones.");
+    notes.push(
+      "No intact buck in a suburban yard. Bucks stink in rut, crow with their voices, and escape. Wethers or does only for companions. Grain is how pet males die of stones.",
+    );
   } else if (goal === "dairy") {
     if (land === "small") breeds.push({ id: "nigerian-dwarf", name: "Nigerian Dwarf" });
     if (climate === "cold" || climate === "mild") breeds.push({ id: "alpine", name: "Alpine" }, { id: "saanen", name: "Saanen" });
@@ -132,6 +135,10 @@ function StartPage() {
         title="Get the place ready before the goats."
         lede="Three questions, a short list of breeds that fit, and a checklist you can tick off. It stays in this browser."
       />
+      <p className="mt-4 max-w-2xl text-sm text-muted">
+        See also Volume 19: Rabbits and Volume 26: Chickens for other small-livestock housing and
+        predator-proofing.
+      </p>
 
       <div className="mt-8 grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
         <section className="rounded-3xl border border-line bg-surface p-4">
@@ -205,6 +212,12 @@ function StartPage() {
         </section>
       </div>
 
+      {goal === "dairy" ? (
+        <div className="mt-8">
+          <MilkBox />
+        </div>
+      ) : null}
+
       <section className="mt-8">
         <div className="flex items-baseline justify-between gap-3">
           <h2 className="text-2xl">Setup list</h2>
@@ -212,6 +225,11 @@ function StartPage() {
             {done} of {list.length}
           </p>
         </div>
+        <p className="mt-3 text-sm text-muted">
+          Read city, county, and HOA rules before you buy goats. Many places limit numbers, ban bucks,
+          require setbacks, or treat goats as livestock you cannot keep on a small lot. “They’re pets” is
+          not a variance.
+        </p>
         <div className="mt-2">
           {list.map((item) => (
             <CheckRow

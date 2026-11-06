@@ -13,7 +13,9 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as BreedsRouteImport } from './routes/breeds'
 import { Route as CareRouteImport } from './routes/care'
 import { Route as ClearingRouteImport } from './routes/clearing'
+import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as HealthRouteImport } from './routes/health'
+import { Route as HereRouteImport } from './routes/here'
 import { Route as StartRouteImport } from './routes/start'
 import { Route as YearRouteImport } from './routes/year'
 
@@ -37,9 +39,19 @@ const ClearingRoute = ClearingRouteImport.update({
   path: '/clearing',
   getParentRoute: () => rootRouteImport,
 } as any)
+const GlossaryRoute = GlossaryRouteImport.update({
+  id: '/glossary',
+  path: '/glossary',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const HealthRoute = HealthRouteImport.update({
   id: '/health',
   path: '/health',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HereRoute = HereRouteImport.update({
+  id: '/here',
+  path: '/here',
   getParentRoute: () => rootRouteImport,
 } as any)
 const StartRoute = StartRouteImport.update({
@@ -58,7 +70,9 @@ export interface FileRoutesByFullPath {
   '/breeds': typeof BreedsRoute
   '/care': typeof CareRoute
   '/clearing': typeof ClearingRoute
+  '/glossary': typeof GlossaryRoute
   '/health': typeof HealthRoute
+  '/here': typeof HereRoute
   '/start': typeof StartRoute
   '/year': typeof YearRoute
 }
@@ -67,7 +81,9 @@ export interface FileRoutesByTo {
   '/breeds': typeof BreedsRoute
   '/care': typeof CareRoute
   '/clearing': typeof ClearingRoute
+  '/glossary': typeof GlossaryRoute
   '/health': typeof HealthRoute
+  '/here': typeof HereRoute
   '/start': typeof StartRoute
   '/year': typeof YearRoute
 }
@@ -77,23 +93,44 @@ export interface FileRoutesById {
   '/breeds': typeof BreedsRoute
   '/care': typeof CareRoute
   '/clearing': typeof ClearingRoute
+  '/glossary': typeof GlossaryRoute
   '/health': typeof HealthRoute
+  '/here': typeof HereRoute
   '/start': typeof StartRoute
   '/year': typeof YearRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/breeds' | '/care' | '/clearing' | '/health' | '/start' | '/year'
+    | '/'
+    | '/breeds'
+    | '/care'
+    | '/clearing'
+    | '/glossary'
+    | '/health'
+    | '/here'
+    | '/start'
+    | '/year'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/breeds' | '/care' | '/clearing' | '/health' | '/start' | '/year'
+  to:
+    | '/'
+    | '/breeds'
+    | '/care'
+    | '/clearing'
+    | '/glossary'
+    | '/health'
+    | '/here'
+    | '/start'
+    | '/year'
   id:
     | '__root__'
     | '/'
     | '/breeds'
     | '/care'
     | '/clearing'
+    | '/glossary'
     | '/health'
+    | '/here'
     | '/start'
     | '/year'
   fileRoutesById: FileRoutesById
@@ -103,7 +140,9 @@ export interface RootRouteChildren {
   BreedsRoute: typeof BreedsRoute
   CareRoute: typeof CareRoute
   ClearingRoute: typeof ClearingRoute
+  GlossaryRoute: typeof GlossaryRoute
   HealthRoute: typeof HealthRoute
+  HereRoute: typeof HereRoute
   StartRoute: typeof StartRoute
   YearRoute: typeof YearRoute
 }
@@ -138,11 +177,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ClearingRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/glossary': {
+      id: '/glossary'
+      path: '/glossary'
+      fullPath: '/glossary'
+      preLoaderRoute: typeof GlossaryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/health': {
       id: '/health'
       path: '/health'
       fullPath: '/health'
       preLoaderRoute: typeof HealthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/here': {
+      id: '/here'
+      path: '/here'
+      fullPath: '/here'
+      preLoaderRoute: typeof HereRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/start': {
@@ -167,7 +220,9 @@ const rootRouteChildren: RootRouteChildren = {
   BreedsRoute: BreedsRoute,
   CareRoute: CareRoute,
   ClearingRoute: ClearingRoute,
+  GlossaryRoute: GlossaryRoute,
   HealthRoute: HealthRoute,
+  HereRoute: HereRoute,
   StartRoute: StartRoute,
   YearRoute: YearRoute,
 }

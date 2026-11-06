@@ -153,6 +153,13 @@ export type CheckItem = {
 
 export const startChecks: CheckItem[] = [
   {
+    id: "zoning",
+    label: "Read city, county, and HOA rules before you buy goats",
+    detail:
+      "Many places limit numbers, ban bucks, require setbacks, or treat goats as livestock you cannot keep on a small lot. “They’re pets” is not a variance.",
+    tags: ["all"],
+  },
+  {
     id: "pair",
     label: "Plan on at least two goats",
     detail: "A single goat is a welfare problem. They need a herd mate they can see and touch.",
@@ -245,7 +252,8 @@ export const startChecks: CheckItem[] = [
   {
     id: "yard-limit",
     label: "Keep the yard herd small and the fence bored-goat proof",
-    detail: "A yard is a dry lot. All their feed is what you bring. Two minis is plenty to start.",
+    detail:
+      "No intact buck in a suburban yard. Bucks stink in rut, crow with their voices, and escape. Wethers or does only for companions. A yard is a dry lot. All their feed is what you bring. Two minis is plenty to start.",
     tags: ["yard"],
   },
   {
@@ -593,7 +601,12 @@ export const plants = {
   ],
 };
 
-export const topics: { href: "/" | "/start" | "/breeds" | "/care" | "/health" | "/year" | "/clearing"; hash?: "rent"; title: string; text: string }[] = [
+export const topics: { href: "/" | "/here" | "/start" | "/breeds" | "/care" | "/health" | "/year" | "/clearing" | "/glossary"; hash?: "rent"; title: string; text: string }[] = [
+  {
+    href: "/here",
+    title: "Start here",
+    text: "Seven steps before the first goat: rules, a pair, fence, quarantine, hay, CDT, and a vet.",
+  },
   {
     href: "/start",
     title: "Before the first goat",
@@ -629,5 +642,10 @@ export const topics: { href: "/" | "/start" | "/breeds" | "/care" | "/health" | 
     hash: "rent",
     title: "Rent the herd out",
     text: "Price a client job, including travel, moves, and whether it pays your time.",
+  },
+  {
+    href: "/glossary",
+    title: "Glossary",
+    text: "Doe, buck, wether, CDT, FAMACHA, CAE, CL, Johne’s, and electronet.",
   },
 ];

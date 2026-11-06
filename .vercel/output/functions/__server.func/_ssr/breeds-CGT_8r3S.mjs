@@ -1,8 +1,8 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { s as purposeLabel, t as breeds } from "./guide-CSOUmwUX.mjs";
+import { s as purposeLabel, t as breeds } from "./guide-OW7O4lDa.mjs";
 import { J as require_react, S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { c as PageIntro, i as Choice, o as Frame } from "./ui-ChNLjc98.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/breeds-DoRXlfpP.js
+import { c as PageIntro, i as Choice, o as Frame } from "./ui-Ur8DFsfx.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/breeds-CGT_8r3S.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var filters = [

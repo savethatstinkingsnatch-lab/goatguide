@@ -1,9 +1,9 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { i as fenceSteps, n as businessChecks, o as plants, r as contractPoints } from "./guide-CSOUmwUX.mjs";
+import { i as fenceSteps, n as businessChecks, o as plants, r as contractPoints } from "./guide-OW7O4lDa.mjs";
 import { J as require_react, S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { n as useGuide, r as cn } from "./router-Lau3-b6T.mjs";
-import { a as FieldLabel, c as PageIntro, i as Choice, l as TextInput, n as Card, o as Frame, r as CheckRow, s as Note, t as Button } from "./ui-ChNLjc98.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/clearing-CNmxK-qe.js
+import { n as useGuide, r as cn } from "./router-0SQVn0KG.mjs";
+import { a as FieldLabel, c as PageIntro, i as Choice, l as TextInput, n as Card, o as Frame, r as CheckRow, s as Note, t as Button } from "./ui-Ur8DFsfx.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/clearing-Dxd7dEaQ.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 /** Goat-days to defoliate one acre. Roots usually need a second visit. */

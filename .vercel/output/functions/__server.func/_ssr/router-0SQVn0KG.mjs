@@ -5,7 +5,7 @@ import { a as union, i as string, n as number, r as object, t as literal } from 
 import { t as clsx } from "../_libs/clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
 import { n as persist, r as create, t as createJSONStorage } from "../_libs/zustand.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-Lau3-b6T.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-0SQVn0KG.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var __defProp = Object.defineProperty;
@@ -376,6 +376,10 @@ async function rehydrateGuide() {
 }
 var NAV = [
 	{
+		href: "/here",
+		label: "Start here"
+	},
+	{
 		href: "/",
 		label: "Guide"
 	},
@@ -402,6 +406,10 @@ var NAV = [
 	{
 		href: "/clearing",
 		label: "Clearing"
+	},
+	{
+		href: "/glossary",
+		label: "Glossary"
 	}
 ];
 function Shell({ children }) {
@@ -418,14 +426,21 @@ function Shell({ children }) {
 					className: "mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-4 pt-3",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
 						to: "/",
-						className: "shrink-0 rounded-md",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-							className: "block font-display text-xl leading-none",
-							children: "Goatstead"
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-							className: "mt-1 block text-xs font-medium text-muted",
-							children: "Field guide"
-						})]
+						className: "block max-w-xl rounded-md pb-2",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "block font-display text-xl leading-none",
+								children: "Goatstead"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "mt-1 block text-xs font-medium leading-snug text-muted",
+								children: "The Education Revolution Pocket Guide, Volume 27: Goats"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "block text-xs leading-snug text-muted",
+								children: "by Blue and the Awesome Dudes"
+							})
+						]
 					})
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("nav", {
 					"aria-label": "Guide",
@@ -445,14 +460,14 @@ function Shell({ children }) {
 				className: "border-t border-line",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "mx-auto max-w-5xl px-4 py-6 text-sm text-muted",
-					children: "Planning notes for keepers, not veterinary, legal, or insurance advice. Confirm illness, stocking, and any contract with a goat vet and someone local who knows livestock law."
+					children: "Planning notes for keepers, not veterinary, legal, or insurance advice. Confirm illness, stocking, and any contract with a goat vet and someone local who knows livestock law. Blue and the Awesome Dudes are not responsible for illness, injury, escape, citations, or herd loss. Part of The Education Revolution pocket guide series. Privacy: This guide does not collect your name, email, or any personal information. Your checklist marks are saved only on your own device."
 				})
 			})
 		]
 	});
 }
-var styles_default = "/assets/styles-CJE2TtFn.css";
-var Route$7 = createRootRoute({
+var styles_default = "/assets/styles-Biq4W5oM.css";
+var Route$9 = createRootRoute({
 	head: () => ({
 		meta: [
 			{ charSet: "utf-8" },
@@ -460,7 +475,7 @@ var Route$7 = createRootRoute({
 				name: "viewport",
 				content: "width=device-width, initial-scale=1"
 			},
-			{ title: "Goatstead" },
+			{ title: "Goats: Goatstead" },
 			{
 				name: "description",
 				content: "A field guide to raising goats, fencing them on brush, and renting the herd out to clear land."
@@ -500,76 +515,96 @@ var Route$7 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter$6 = () => import("./routes-Cf7Wlnoa.mjs");
-var Route$6 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$6, "component") });
-var $$splitComponentImporter$5 = () => import("./breeds-DoRXlfpP.mjs");
-var Route$5 = createFileRoute("/breeds")({
+var $$splitComponentImporter$8 = () => import("./routes-DYtBDgTd.mjs");
+var Route$8 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$8, "component") });
+var $$splitComponentImporter$7 = () => import("./breeds-CGT_8r3S.mjs");
+var Route$7 = createFileRoute("/breeds")({
 	head: () => ({ meta: [{ title: "Breeds — Goatstead" }] }),
+	component: lazyRouteComponent($$splitComponentImporter$7, "component")
+});
+var $$splitComponentImporter$6 = () => import("./care-BtUgVcK3.mjs");
+var Route$6 = createFileRoute("/care")({
+	head: () => ({ meta: [{ title: "Daily care — Goatstead" }] }),
+	component: lazyRouteComponent($$splitComponentImporter$6, "component")
+});
+var $$splitComponentImporter$5 = () => import("./clearing-Dxd7dEaQ.mjs");
+var Route$5 = createFileRoute("/clearing")({
+	head: () => ({ meta: [{ title: "Clearing and hire-out — Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-var $$splitComponentImporter$4 = () => import("./care-Bcg97mgJ.mjs");
-var Route$4 = createFileRoute("/care")({
-	head: () => ({ meta: [{ title: "Daily care — Goatstead" }] }),
+var $$splitComponentImporter$4 = () => import("./glossary-Ch8c6lA8.mjs");
+var Route$4 = createFileRoute("/glossary")({
+	head: () => ({ meta: [{ title: "Glossary — Goats: Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-var $$splitComponentImporter$3 = () => import("./clearing-CNmxK-qe.mjs");
-var Route$3 = createFileRoute("/clearing")({
-	head: () => ({ meta: [{ title: "Clearing and hire-out — Goatstead" }] }),
+var $$splitComponentImporter$3 = () => import("./health-0EsW_T1T.mjs");
+var Route$3 = createFileRoute("/health")({
+	head: () => ({ meta: [{ title: "Health — Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./health-BqhcdV54.mjs");
-var Route$2 = createFileRoute("/health")({
-	head: () => ({ meta: [{ title: "Health — Goatstead" }] }),
+var $$splitComponentImporter$2 = () => import("./here-DydhSMnC.mjs");
+var Route$2 = createFileRoute("/here")({
+	head: () => ({ meta: [{ title: "Start here — Goats: Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./start-LVlywQ-S.mjs");
+var $$splitComponentImporter$1 = () => import("./start-Dwi2imRh.mjs");
 var Route$1 = createFileRoute("/start")({
 	head: () => ({ meta: [{ title: "Start a herd — Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./year-DM9HTzyT.mjs");
+var $$splitComponentImporter = () => import("./year-G7nZd1OB.mjs");
 var Route = createFileRoute("/year")({
 	head: () => ({ meta: [{ title: "The year — Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter, "component")
 });
 var rootRouteChildren = {
-	IndexRoute: Route$6.update({
+	IndexRoute: Route$8.update({
 		id: "/",
 		path: "/",
-		getParentRoute: () => Route$7
+		getParentRoute: () => Route$9
 	}),
-	BreedsRoute: Route$5.update({
+	BreedsRoute: Route$7.update({
 		id: "/breeds",
 		path: "/breeds",
-		getParentRoute: () => Route$7
+		getParentRoute: () => Route$9
 	}),
-	CareRoute: Route$4.update({
+	CareRoute: Route$6.update({
 		id: "/care",
 		path: "/care",
-		getParentRoute: () => Route$7
+		getParentRoute: () => Route$9
 	}),
-	ClearingRoute: Route$3.update({
+	ClearingRoute: Route$5.update({
 		id: "/clearing",
 		path: "/clearing",
-		getParentRoute: () => Route$7
+		getParentRoute: () => Route$9
 	}),
-	HealthRoute: Route$2.update({
+	GlossaryRoute: Route$4.update({
+		id: "/glossary",
+		path: "/glossary",
+		getParentRoute: () => Route$9
+	}),
+	HealthRoute: Route$3.update({
 		id: "/health",
 		path: "/health",
-		getParentRoute: () => Route$7
+		getParentRoute: () => Route$9
+	}),
+	HereRoute: Route$2.update({
+		id: "/here",
+		path: "/here",
+		getParentRoute: () => Route$9
 	}),
 	StartRoute: Route$1.update({
 		id: "/start",
 		path: "/start",
-		getParentRoute: () => Route$7
+		getParentRoute: () => Route$9
 	}),
 	YearRoute: Route.update({
 		id: "/year",
 		path: "/year",
-		getParentRoute: () => Route$7
+		getParentRoute: () => Route$9
 	})
 };
-var routeTree = Route$7._addFileChildren(rootRouteChildren)._addFileTypes();
+var routeTree = Route$9._addFileChildren(rootRouteChildren)._addFileTypes();
 var router_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
 function getRouter() {
 	return createRouter({

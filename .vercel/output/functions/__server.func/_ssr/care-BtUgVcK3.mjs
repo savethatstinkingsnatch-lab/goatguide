@@ -1,7 +1,8 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { J as require_react, S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { a as FieldLabel, c as PageIntro, i as Choice, l as TextInput, n as Card, o as Frame } from "./ui-ChNLjc98.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/care-Bcg97mgJ.js
+import { a as FieldLabel, c as PageIntro, i as Choice, l as TextInput, n as Card, o as Frame } from "./ui-Ur8DFsfx.mjs";
+import { t as MilkBox } from "./milk-box-DH7_IdS_.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/care-BtUgVcK3.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var sizes = {
@@ -54,6 +55,10 @@ function CarePage() {
 			kicker: "Care",
 			title: "Hay, a dry shed, and a fence they respect.",
 			lede: "Goats are browsers. They would rather eat brush, leaves, and weeds than mow a lawn. Your job is forage, minerals, water, and a boundary that holds when they get ideas."
+		}),
+		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "mt-8",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MilkBox, {})
 		}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "mt-8 grid gap-4 lg:grid-cols-2",

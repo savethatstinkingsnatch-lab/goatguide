@@ -1,9 +1,10 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { l as startChecks } from "./guide-CSOUmwUX.mjs";
+import { l as startChecks } from "./guide-OW7O4lDa.mjs";
 import { J as require_react, S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { n as useGuide } from "./router-Lau3-b6T.mjs";
-import { c as PageIntro, i as Choice, o as Frame, r as CheckRow, t as Button } from "./ui-ChNLjc98.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/start-LVlywQ-S.js
+import { n as useGuide } from "./router-0SQVn0KG.mjs";
+import { c as PageIntro, i as Choice, o as Frame, r as CheckRow, t as Button } from "./ui-Ur8DFsfx.mjs";
+import { t as MilkBox } from "./milk-box-DH7_IdS_.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/start-Dwi2imRh.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var goals = [
@@ -72,7 +73,7 @@ function recommend(goal, land, climate) {
 			id: "pygmy",
 			name: "Pygmy"
 		});
-		notes.push("Two wethers, or a wether and a doe. No buck in a yard. Grain is how pet males die of stones.");
+		notes.push("No intact buck in a suburban yard. Bucks stink in rut, crow with their voices, and escape. Wethers or does only for companions. Grain is how pet males die of stones.");
 	} else if (goal === "dairy") {
 		if (land === "small") breeds.push({
 			id: "nigerian-dwarf",
@@ -181,6 +182,10 @@ function StartPage() {
 			title: "Get the place ready before the goats.",
 			lede: "Three questions, a short list of breeds that fit, and a checklist you can tick off. It stays in this browser."
 		}),
+		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+			className: "mt-4 max-w-2xl text-sm text-muted",
+			children: "See also Volume 19: Rabbits and Volume 26: Chickens for other small-livestock housing and predator-proofing."
+		}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "mt-8 grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
@@ -264,30 +269,41 @@ function StartPage() {
 				] })
 			})]
 		}),
+		goal === "dairy" ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "mt-8",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MilkBox, {})
+		}) : null,
 		/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 			className: "mt-8",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "flex items-baseline justify-between gap-3",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-					className: "text-2xl",
-					children: "Setup list"
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-					className: "text-sm tabular-nums text-muted",
-					children: [
-						done,
-						" of ",
-						list.length
-					]
-				})]
-			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-				className: "mt-2",
-				children: list.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CheckRow, {
-					checked: Boolean(checks[item.id]),
-					label: item.label,
-					detail: item.detail,
-					onChange: () => toggle(item.id)
-				}, item.id))
-			})]
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex items-baseline justify-between gap-3",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "text-2xl",
+						children: "Setup list"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+						className: "text-sm tabular-nums text-muted",
+						children: [
+							done,
+							" of ",
+							list.length
+						]
+					})]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "mt-3 text-sm text-muted",
+					children: "Read city, county, and HOA rules before you buy goats. Many places limit numbers, ban bucks, require setbacks, or treat goats as livestock you cannot keep on a small lot. “They’re pets” is not a variance."
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "mt-2",
+					children: list.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CheckRow, {
+						checked: Boolean(checks[item.id]),
+						label: item.label,
+						detail: item.detail,
+						onChange: () => toggle(item.id)
+					}, item.id))
+				})
+			]
 		})
 	] });
 }

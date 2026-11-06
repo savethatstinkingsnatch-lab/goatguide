@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { Card, Choice, FieldLabel, Frame, PageIntro, TextInput } from "@/components/ui";
+import { MilkBox } from "@/components/milk-box";
 
 export const Route = createFileRoute("/care")({
   head: () => ({ meta: [{ title: "Daily care — Goatstead" }] }),
@@ -44,6 +45,10 @@ function CarePage() {
         title="Hay, a dry shed, and a fence they respect."
         lede="Goats are browsers. They would rather eat brush, leaves, and weeds than mow a lawn. Your job is forage, minerals, water, and a boundary that holds when they get ideas."
       />
+
+      <div className="mt-8">
+        <MilkBox />
+      </div>
 
       <div className="mt-8 grid gap-4 lg:grid-cols-2">
         <Card>

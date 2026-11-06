@@ -4,6 +4,7 @@ import { cn } from "@/lib/cn";
 import { rehydrateGuide } from "@/lib/store";
 
 const NAV = [
+  { href: "/here", label: "Start here" },
   { href: "/", label: "Guide" },
   { href: "/start", label: "Start" },
   { href: "/breeds", label: "Breeds" },
@@ -11,6 +12,7 @@ const NAV = [
   { href: "/health", label: "Health" },
   { href: "/year", label: "Year" },
   { href: "/clearing", label: "Clearing" },
+  { href: "/glossary", label: "Glossary" },
 ];
 
 export function Shell({ children }: { children: ReactNode }) {
@@ -24,9 +26,12 @@ export function Shell({ children }: { children: ReactNode }) {
     <div className="min-h-screen">
       <header className="sticky top-0 z-20 border-b border-line bg-bg">
         <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-4 pt-3">
-          <Link to="/" className="shrink-0 rounded-md">
+          <Link to="/" className="block max-w-xl rounded-md pb-2">
             <span className="block font-display text-xl leading-none">Goatstead</span>
-            <span className="mt-1 block text-xs font-medium text-muted">Field guide</span>
+            <span className="mt-1 block text-xs font-medium leading-snug text-muted">
+              The Education Revolution Pocket Guide, Volume 27: Goats
+            </span>
+            <span className="block text-xs leading-snug text-muted">by Blue and the Awesome Dudes</span>
           </Link>
         </div>
         <nav aria-label="Guide" className="mx-auto flex w-full max-w-5xl gap-1 overflow-x-auto px-2">
@@ -51,7 +56,10 @@ export function Shell({ children }: { children: ReactNode }) {
       <footer className="border-t border-line">
         <p className="mx-auto max-w-5xl px-4 py-6 text-sm text-muted">
           Planning notes for keepers, not veterinary, legal, or insurance advice. Confirm illness, stocking,
-          and any contract with a goat vet and someone local who knows livestock law.
+          and any contract with a goat vet and someone local who knows livestock law. Blue and the Awesome
+          Dudes are not responsible for illness, injury, escape, citations, or herd loss. Part of The
+          Education Revolution pocket guide series. Privacy: This guide does not collect your name, email, or
+          any personal information. Your checklist marks are saved only on your own device.
         </p>
       </footer>
     </div>
