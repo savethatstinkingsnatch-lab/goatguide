@@ -1,8 +1,8 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { s as purposeLabel, t as breeds } from "./guide-OW7O4lDa.mjs";
+import { s as purposeLabel, t as breeds } from "./guide-FvRMF8pV.mjs";
 import { J as require_react, S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { c as PageIntro, i as Choice, o as Frame } from "./ui-Ur8DFsfx.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/breeds-CGT_8r3S.js
+import { c as PageIntro, i as Choice, o as Frame } from "./ui-DLTh075-.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/breeds-sa_q3hoz.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var filters = [
@@ -29,7 +29,7 @@ function BreedsPage() {
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PageIntro, {
 			kicker: "Breeds",
 			title: "Pick the job, then the goat.",
-			lede: "There is no best breed. There is a goat that milks, one that grows on brush, one that grows mohair, and one that should never be given a grain bucket."
+			lede: "There is no best breed. There is a goat that milks, one that grows on brush, one that grows mohair, and one that should not live on a grain bucket."
 		}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			role: "radiogroup",

@@ -30,7 +30,7 @@ function BreedsPage() {
       <PageIntro
         kicker="Breeds"
         title="Pick the job, then the goat."
-        lede="There is no best breed. There is a goat that milks, one that grows on brush, one that grows mohair, and one that should never be given a grain bucket."
+        lede="There is no best breed. There is a goat that milks, one that grows on brush, one that grows mohair, and one that should not live on a grain bucket."
       />
       <div role="radiogroup" aria-label="Filter breeds" className="mt-6 flex flex-wrap gap-2">
         {filters.map((item) => (

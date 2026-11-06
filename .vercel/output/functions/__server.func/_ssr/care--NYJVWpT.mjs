@@ -1,8 +1,8 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { J as require_react, S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { a as FieldLabel, c as PageIntro, i as Choice, l as TextInput, n as Card, o as Frame } from "./ui-Ur8DFsfx.mjs";
-import { t as MilkBox } from "./milk-box-DH7_IdS_.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/care-BtUgVcK3.js
+import { a as FieldLabel, c as PageIntro, i as Choice, l as TextInput, n as Card, o as Frame } from "./ui-DLTh075-.mjs";
+import { t as MilkBox } from "./milk-box-tTzbmda4.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/care--NYJVWpT.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var sizes = {
@@ -54,7 +54,7 @@ function CarePage() {
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PageIntro, {
 			kicker: "Care",
 			title: "Hay, a dry shed, and a fence they respect.",
-			lede: "Goats are browsers. They would rather eat brush, leaves, and weeds than mow a lawn. Your job is forage, minerals, water, and a boundary that holds when they get ideas."
+			lede: "Goats select browse — leaves, brush, and weeds — and they also eat grass and other forage. They would rather work a thicket than mow a lawn. Your job is forage, minerals, water, and a boundary that holds when they get ideas."
 		}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "mt-8",
@@ -69,7 +69,7 @@ function CarePage() {
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "mt-2 text-sm text-muted",
-					children: "A planning rate, not a ration from a nutritionist. Weigh a few bales once so “a flake” means something."
+					children: "A rough planning example, not a ration. Hay, water, and space swing with animal size, forage quality, weather, and what you are asking them to do. Weigh a few bales once so “a flake” means something."
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "mt-4 grid gap-4",
@@ -128,33 +128,37 @@ function CarePage() {
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
 							className: "text-muted",
-							children: "Hay, about"
+							children: "Hay, rough example"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("dd", {
 							className: "font-display text-2xl tabular-nums",
 							children: [plan.hay, " lb/day"]
 						})] }),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
 							className: "text-muted",
-							children: "Water, about"
+							children: "Water, rough example"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("dd", {
 							className: "font-display text-2xl tabular-nums",
 							children: [plan.water, " gal/day"]
 						})] }),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
 							className: "text-muted",
-							children: "Indoor shelter"
+							children: "Indoor shelter, example"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("dd", {
 							className: "tabular-nums",
 							children: [plan.indoor, " sq ft"]
 						})] }),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
 							className: "text-muted",
-							children: "Dry lot minimum"
+							children: "Dry lot, example"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("dd", {
 							className: "tabular-nums",
 							children: [plan.lot.toLocaleString("en-US"), " sq ft"]
 						})] })
 					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "mt-3 text-sm text-muted",
+					children: "These totals are illustrations from fixed multipliers, not a standard you must meet. The lot figure is not a published minimum."
 				})
 			] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "space-y-4",
@@ -163,13 +167,13 @@ function CarePage() {
 					children: "Grain is a tool, not a hobby"
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "mt-2 text-sm text-muted",
-					children: "Maintenance animals on decent hay often need no grain. Late pregnancy and real milk production usually do — measured, not free choice. Bucks and wethers on grain are how urinary stones happen. A clearing herd should live on browse, hay, and mineral."
+					children: "Forage should be the base of the diet. Maintenance animals on decent hay often need little or no grain. Late pregnancy and real milk production usually need a measured amount, not free choice. Grain can contribute to urinary stones in bucks and wethers when the ration is high in phosphorus or the calcium-to-phosphorus balance is off. Balance any supplemented ration with a vet or nutrition adviser. A clearing herd should live mostly on browse, hay, and mineral."
 				})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 					className: "text-xl",
 					children: "Mineral and baking soda"
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "mt-2 text-sm text-muted",
-					children: "Loose mineral labeled for goats, in a covered feeder, all the time. It has to contain copper. Sheep mineral does not. A small free-choice baking soda station helps when rumen pH gets sloppy from too much grain. Salt is usually already in the mineral; don’t invent a second program."
+					children: "Offer a loose mineral formulated for goats, in a covered feeder. Copper needs and toxicity risk depend on the whole diet and local forage. Sheep mineral is not automatically the right substitute, and some goat minerals can cause copper toxicity in sheep. If you keep both species, plan separate minerals with a veterinarian or nutrition adviser. A small free-choice baking soda station can help when rumen pH gets sloppy from too much grain. Salt is often already in the mineral; don’t invent a second program without a reason."
 				})] })]
 			})]
 		}),

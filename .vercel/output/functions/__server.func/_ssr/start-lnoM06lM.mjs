@@ -1,10 +1,10 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { l as startChecks } from "./guide-OW7O4lDa.mjs";
+import { l as startChecks } from "./guide-FvRMF8pV.mjs";
 import { J as require_react, S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { n as useGuide } from "./router-0SQVn0KG.mjs";
-import { c as PageIntro, i as Choice, o as Frame, r as CheckRow, t as Button } from "./ui-Ur8DFsfx.mjs";
-import { t as MilkBox } from "./milk-box-DH7_IdS_.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/start-Dwi2imRh.js
+import { n as useGuide } from "./router-BJ7P3SNe.mjs";
+import { c as PageIntro, i as Choice, o as Frame, r as CheckRow, t as Button } from "./ui-DLTh075-.mjs";
+import { t as MilkBox } from "./milk-box-tTzbmda4.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/start-lnoM06lM.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var goals = [
@@ -73,7 +73,7 @@ function recommend(goal, land, climate) {
 			id: "pygmy",
 			name: "Pygmy"
 		});
-		notes.push("No intact buck in a suburban yard. Bucks stink in rut, crow with their voices, and escape. Wethers or does only for companions. Grain is how pet males die of stones.");
+		notes.push("No intact buck in a suburban yard. Bucks stink in rut, crow with their voices, and escape. Wethers or does only for companions. Forage is the base of the diet. Grain can contribute to urinary stones when the ration is high in phosphorus or the calcium-to-phosphorus ratio is off, so keep it small and balance any supplement.");
 	} else if (goal === "dairy") {
 		if (land === "small") breeds.push({
 			id: "nigerian-dwarf",
@@ -130,7 +130,7 @@ function recommend(goal, land, climate) {
 		notes.push("A working herd is wethers or open does, disbudded or polled if you will use electronet. Leave the buck at home. Horns and netting tangle.");
 		if (land !== "acreage") notes.push("Under two acres you can run a training paddock, not a summer of client jobs. Rotate hard or you will just make a dirt lot.");
 	}
-	if (climate === "humid") notes.push("Humid summers are a parasite business. Learn FAMACHA, use fecals, and rest ground. Stocking rate is a health decision.");
+	if (climate === "humid") notes.push("Humid summers are a parasite business. Use FAMACHA only after formal training and certification, use fecals, and rest ground. A pale eyelid is a reason to call a vet the same day, not a reason to deworm the whole herd.");
 	if (climate === "cold") notes.push("Budget a dry wind break and water that stays liquid. Cold is fine. Cold and wet, on kids or fresh shears, is not.");
 	if (climate === "dry") notes.push("Shade and hauling water will limit the herd before acres do.");
 	notes.push("Quarantine anything new for 30 days. Ask for CAE, CL, and Johne's results when you are buying breeding stock.");

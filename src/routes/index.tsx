@@ -17,8 +17,8 @@ const rules = [
     text: "Woven wire or trained hot wire. Barbed wire is how goats get ruined, not how they stay home.",
   },
   {
-    title: "Goat mineral, not sheep mineral",
-    text: "They need the copper. Sheep mineral will leave them short, and goat mineral can poison sheep.",
+    title: "Goat mineral, planned apart from sheep",
+    text: "Use a mineral formulated for goats. Copper needs depend on the whole diet and local forage. Some goat minerals can cause copper toxicity in sheep.",
   },
   {
     title: "A tight paddock does the work",

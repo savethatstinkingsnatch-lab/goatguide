@@ -1,14 +1,14 @@
 import { S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { c as PageIntro, o as Frame } from "./ui-Ur8DFsfx.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/here-DydhSMnC.js
+import { c as PageIntro, o as Frame } from "./ui-DLTh075-.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/here-C0P-hqjV.js
 var import_jsx_runtime = require_jsx_runtime();
 var steps = [
 	"Check local rules.",
 	"Buy at least two goats (they are herd animals).",
 	"Finish woven + electric fence before they arrive.",
 	"Quarantine and ask for CAE/CL/Johne’s tests.",
-	"Feed hay and goat mineral; almost no grain for wethers.",
-	"Put CDT and FAMACHA on the calendar.",
+	"Feed forage first and a goat-formulated mineral. Keep grain small, and balance any supplement.",
+	"Put CDT on the calendar. Score eyelids with FAMACHA only after formal training and certification.",
 	"Find a goat vet before kidding season."
 ];
 function HerePage() {

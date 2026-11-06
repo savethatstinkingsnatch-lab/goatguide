@@ -5,7 +5,7 @@ import { a as union, i as string, n as number, r as object, t as literal } from 
 import { t as clsx } from "../_libs/clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
 import { n as persist, r as create, t as createJSONStorage } from "../_libs/zustand.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-0SQVn0KG.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-BJ7P3SNe.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var __defProp = Object.defineProperty;
@@ -515,44 +515,44 @@ var Route$9 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter$8 = () => import("./routes-DYtBDgTd.mjs");
+var $$splitComponentImporter$8 = () => import("./routes-B9G_LwIT.mjs");
 var Route$8 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$8, "component") });
-var $$splitComponentImporter$7 = () => import("./breeds-CGT_8r3S.mjs");
+var $$splitComponentImporter$7 = () => import("./breeds-sa_q3hoz.mjs");
 var Route$7 = createFileRoute("/breeds")({
 	head: () => ({ meta: [{ title: "Breeds — Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$7, "component")
 });
-var $$splitComponentImporter$6 = () => import("./care-BtUgVcK3.mjs");
+var $$splitComponentImporter$6 = () => import("./care--NYJVWpT.mjs");
 var Route$6 = createFileRoute("/care")({
 	head: () => ({ meta: [{ title: "Daily care — Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$6, "component")
 });
-var $$splitComponentImporter$5 = () => import("./clearing-Dxd7dEaQ.mjs");
+var $$splitComponentImporter$5 = () => import("./clearing-BlnJlp_9.mjs");
 var Route$5 = createFileRoute("/clearing")({
 	head: () => ({ meta: [{ title: "Clearing and hire-out — Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-var $$splitComponentImporter$4 = () => import("./glossary-Ch8c6lA8.mjs");
+var $$splitComponentImporter$4 = () => import("./glossary-BaFoJkr8.mjs");
 var Route$4 = createFileRoute("/glossary")({
 	head: () => ({ meta: [{ title: "Glossary — Goats: Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-var $$splitComponentImporter$3 = () => import("./health-0EsW_T1T.mjs");
+var $$splitComponentImporter$3 = () => import("./health-CdmqM9V_.mjs");
 var Route$3 = createFileRoute("/health")({
 	head: () => ({ meta: [{ title: "Health — Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./here-DydhSMnC.mjs");
+var $$splitComponentImporter$2 = () => import("./here-C0P-hqjV.mjs");
 var Route$2 = createFileRoute("/here")({
 	head: () => ({ meta: [{ title: "Start here — Goats: Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./start-Dwi2imRh.mjs");
+var $$splitComponentImporter$1 = () => import("./start-lnoM06lM.mjs");
 var Route$1 = createFileRoute("/start")({
 	head: () => ({ meta: [{ title: "Start a herd — Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./year-G7nZd1OB.mjs");
+var $$splitComponentImporter = () => import("./year-BU9fDmTb.mjs");
 var Route = createFileRoute("/year")({
 	head: () => ({ meta: [{ title: "The year — Goatstead" }] }),
 	component: lazyRouteComponent($$splitComponentImporter, "component")

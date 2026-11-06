@@ -22,8 +22,8 @@ export const breeds: Breed[] = [
     climate: "Adaptable. Shade and air in heat.",
     temperament: "Bright, people-oriented if handled",
     notes:
-      "The usual homestead milker. Butterfat is high; volume is quarts, not gallons. Two or three does can cover a household. Often breed out of season.",
-    watch: "Easy to overfeed. Pet wethers and grain are a urinary-stone combination.",
+      "The usual homestead milker. Butterfat is high; volume is quarts, not gallons, and it varies with the doe, the feed, and the lactation. Two or three does can cover a household only when those does actually produce enough. Often breed out of season.",
+    watch: "Easy to overfeed. Grain can contribute to urinary stones in pet wethers when the ration is high in phosphorus or the calcium-to-phosphorus ratio is off.",
   },
   {
     id: "nubian",
@@ -83,7 +83,7 @@ export const breeds: Breed[] = [
     temperament: "Solid, stocky, can be pushy at feed",
     notes:
       "Fast growth and a muscular carcass. The common show and meat goat. Fine on brush, but not the toughest low-input animal in a humid summer.",
-    watch: "In the wet Southeast, plan fecals and FAMACHA from the start. Many keepers cross them onto Kiko or Spanish for hardiness.",
+    watch: "In the wet Southeast, plan fecals from the start and use FAMACHA only after formal training and certification. Many keepers cross them onto Kiko or Spanish for hardiness.",
   },
   {
     id: "kiko",
@@ -131,7 +131,7 @@ export const breeds: Breed[] = [
     temperament: "Sturdy, comic, stubborn",
     notes:
       "A small West African goat kept mostly as a companion. Not a dairy breed. Two wethers in a well-fenced yard is the usual pet setup.",
-    watch: "Fat wethers die of urinary stones. Hay and goat mineral, not a bowl of grain.",
+    watch: "Urinary stones are a risk if wethers get a high-phosphorus or unbalanced grain ration. Forage first; keep grain small and balance any supplement.",
   },
 ];
 
@@ -179,8 +179,9 @@ export const startChecks: CheckItem[] = [
   },
   {
     id: "mineral",
-    label: "Buy loose mineral made for goats",
-    detail: "Goats need copper. Sheep mineral is too low and will leave them deficient. Do not let sheep eat goat mineral.",
+    label: "Offer a mineral formulated for goats",
+    detail:
+      "Copper needs and toxicity risk depend on the whole diet and local forage. Sheep are particularly vulnerable to excess copper. If you keep both, plan separate minerals with a veterinarian or nutrition adviser.",
     tags: ["all"],
   },
   {
@@ -227,14 +228,16 @@ export const startChecks: CheckItem[] = [
   },
   {
     id: "no-grain-pets",
-    label: "Decide now: pet wethers do not get grain",
-    detail: "Urinary stones are common, fast, and often fatal in males. Forage, goat mineral, and water.",
+    label: "Keep grain small for pet wethers and bucks",
+    detail:
+      "Forage is the base. Grain can contribute to urinary stones, especially if the ration is high in phosphorus or the calcium-to-phosphorus ratio is off. Any supplement needs balancing, not a free-choice bowl.",
     tags: ["companion"],
   },
   {
     id: "famacha",
-    label: "Get a FAMACHA card and a fecal relationship",
-    detail: "In humid country, barber-pole worm is the killer. Score eyelids; don't deworm the whole herd on a calendar.",
+    label: "Train and certify before you use a FAMACHA card",
+    detail:
+      "The card requires formal training and certification. It screens for anemia associated with barber-pole worm. A pale eyelid does not name the cause or choose the treatment. Don't deworm the whole herd on a calendar.",
     tags: ["humid"],
   },
   {
@@ -358,7 +361,7 @@ export const issues: Issue[] = [
     summary:
       "Mostly wethers and bucks. Stones block the urethra. They strain, look constipated, dribble, or stop urinating, then crash.",
     steps:
-      "This is an emergency, not a home remedy. Call a vet now. Prevention later: almost no grain, constant water, goat mineral — never a fat pet ration.",
+      "This is an emergency, not a home remedy. Call a vet now. Later, keep forage as the base, grain small and balanced for calcium and phosphorus, water available, and a goat mineral — not an unbalanced pet ration.",
   },
   {
     id: "bloat",
@@ -408,7 +411,7 @@ export const issues: Issue[] = [
     summary:
       "Haemonchus sucks blood. Eyelids go pale, then bottle jaw, then sudden death. It is the central health problem of humid goat country.",
     steps:
-      "FAMACHA the eyelids today. A pale goat needs treatment now, not a herd-wide dewormer next Sunday. Recheck, and use fecals so you are not breeding resistant worms.",
+      "A pale eyelid needs a same-day veterinary assessment. It does not by itself diagnose barber-pole worm or tell you which treatment to use. FAMACHA, and only after formal training and certification, is a screen for anemia associated with that worm. Do not deworm the whole herd on a calendar. Fecals help your vet avoid selecting resistant worms.",
   },
   {
     id: "ketosis",
@@ -510,7 +513,7 @@ export const seasons = [
       "Kidding if you bred in the fall. Sleep near the barn when does bag up and the ligaments soften.",
       "Kids and coccidia: dry bedding beats any bottle of medicine you forgot to buy.",
       "Turnout onto growing browse. Shift paddocks before the favorite plants are down to sticks.",
-      "FAMACHA as the grass rises. Barber pole wakes up with the warmth.",
+      "If you are FAMACHA-certified, score eyelids as the grass rises. Barber pole wakes up with the warmth. A pale lid still needs a vet, not a herd-wide dewormer.",
       "Hoof trim after the mud, and CDT boosters on the schedule your vet set.",
     ],
   },

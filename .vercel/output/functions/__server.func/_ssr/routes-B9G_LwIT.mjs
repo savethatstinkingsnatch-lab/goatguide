@@ -1,8 +1,8 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { d as topics } from "./guide-OW7O4lDa.mjs";
+import { d as topics } from "./guide-FvRMF8pV.mjs";
 import { J as require_react, S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { o as Frame } from "./ui-Ur8DFsfx.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-DYtBDgTd.js
+import { o as Frame } from "./ui-DLTh075-.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-B9G_LwIT.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var rules = [
@@ -15,8 +15,8 @@ var rules = [
 		text: "Woven wire or trained hot wire. Barbed wire is how goats get ruined, not how they stay home."
 	},
 	{
-		title: "Goat mineral, not sheep mineral",
-		text: "They need the copper. Sheep mineral will leave them short, and goat mineral can poison sheep."
+		title: "Goat mineral, planned apart from sheep",
+		text: "Use a mineral formulated for goats. Copper needs depend on the whole diet and local forage. Some goat minerals can cause copper toxicity in sheep."
 	},
 	{
 		title: "A tight paddock does the work",

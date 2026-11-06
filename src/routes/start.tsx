@@ -48,7 +48,7 @@ function recommend(goal: Goal, land: Land, climate: Climate) {
   if (goal === "pets" || land === "yard") {
     breeds.push({ id: "nigerian-dwarf", name: "Nigerian Dwarf" }, { id: "pygmy", name: "Pygmy" });
     notes.push(
-      "No intact buck in a suburban yard. Bucks stink in rut, crow with their voices, and escape. Wethers or does only for companions. Grain is how pet males die of stones.",
+      "No intact buck in a suburban yard. Bucks stink in rut, crow with their voices, and escape. Wethers or does only for companions. Forage is the base of the diet. Grain can contribute to urinary stones when the ration is high in phosphorus or the calcium-to-phosphorus ratio is off, so keep it small and balance any supplement.",
     );
   } else if (goal === "dairy") {
     if (land === "small") breeds.push({ id: "nigerian-dwarf", name: "Nigerian Dwarf" });
@@ -80,7 +80,7 @@ function recommend(goal: Goal, land: Land, climate: Climate) {
   }
 
   if (climate === "humid") {
-    notes.push("Humid summers are a parasite business. Learn FAMACHA, use fecals, and rest ground. Stocking rate is a health decision.");
+    notes.push("Humid summers are a parasite business. Use FAMACHA only after formal training and certification, use fecals, and rest ground. A pale eyelid is a reason to call a vet the same day, not a reason to deworm the whole herd.");
   }
   if (climate === "cold") {
     notes.push("Budget a dry wind break and water that stays liquid. Cold is fine. Cold and wet, on kids or fresh shears, is not.");

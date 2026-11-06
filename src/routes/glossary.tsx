@@ -13,11 +13,11 @@ const terms = [
   ["Kid", "Baby goat."],
   ["Browse", "Leaves, brush, and weeds goats prefer over lawn grass."],
   ["CDT", "Vaccine for Clostridium C and D plus tetanus."],
-  ["FAMACHA", "Eyelid-color check for barber-pole worm anemia."],
+  ["FAMACHA", "A trained, certified eyelid-color screen for anemia associated with barber-pole worm. A pale lid does not name the cause or the treatment."],
   ["CAE", "Caprine arthritis encephalitis (virus; milk/contact)."],
   ["CL", "Caseous lymphadenitis (abscess disease)."],
   ["Johne’s", "Chronic gut disease; hard to clear from a herd."],
-  ["Urinary calculi", "Stones that block bucks/wethers; linked to wrong grain rations."],
+  ["Urinary calculi", "Stones that can block bucks and wethers. Grain can contribute when the ration is high in phosphorus or the calcium-to-phosphorus ratio is off."],
   ["Electronet", "Portable electric net fencing for goats."],
   ["Pasteurize", "Heat milk to kill germs before drinking."],
 ];

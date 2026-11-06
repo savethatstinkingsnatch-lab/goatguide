@@ -43,7 +43,7 @@ function CarePage() {
       <PageIntro
         kicker="Care"
         title="Hay, a dry shed, and a fence they respect."
-        lede="Goats are browsers. They would rather eat brush, leaves, and weeds than mow a lawn. Your job is forage, minerals, water, and a boundary that holds when they get ideas."
+        lede="Goats select browse — leaves, brush, and weeds — and they also eat grass and other forage. They would rather work a thicket than mow a lawn. Your job is forage, minerals, water, and a boundary that holds when they get ideas."
       />
 
       <div className="mt-8">
@@ -54,7 +54,7 @@ function CarePage() {
         <Card>
           <h2 className="text-xl">Daily feed sketch</h2>
           <p className="mt-2 text-sm text-muted">
-            A planning rate, not a ration from a nutritionist. Weigh a few bales once so “a flake” means something.
+            A rough planning example, not a ration. Hay, water, and space swing with animal size, forage quality, weather, and what you are asking them to do. Weigh a few bales once so “a flake” means something.
           </p>
           <div className="mt-4 grid gap-4">
             <FieldLabel label="Goats" hint="Adults in this group">
@@ -83,35 +83,38 @@ function CarePage() {
           </div>
           <dl className="mt-5 grid grid-cols-2 gap-3 border-t border-line pt-4 text-sm">
             <div>
-              <dt className="text-muted">Hay, about</dt>
+              <dt className="text-muted">Hay, rough example</dt>
               <dd className="font-display text-2xl tabular-nums">{plan.hay} lb/day</dd>
             </div>
             <div>
-              <dt className="text-muted">Water, about</dt>
+              <dt className="text-muted">Water, rough example</dt>
               <dd className="font-display text-2xl tabular-nums">{plan.water} gal/day</dd>
             </div>
             <div>
-              <dt className="text-muted">Indoor shelter</dt>
+              <dt className="text-muted">Indoor shelter, example</dt>
               <dd className="tabular-nums">{plan.indoor} sq ft</dd>
             </div>
             <div>
-              <dt className="text-muted">Dry lot minimum</dt>
+              <dt className="text-muted">Dry lot, example</dt>
               <dd className="tabular-nums">{plan.lot.toLocaleString("en-US")} sq ft</dd>
             </div>
           </dl>
+          <p className="mt-3 text-sm text-muted">
+            These totals are illustrations from fixed multipliers, not a standard you must meet. The lot figure is not a published minimum.
+          </p>
         </Card>
 
         <div className="space-y-4">
           <Card>
             <h2 className="text-xl">Grain is a tool, not a hobby</h2>
             <p className="mt-2 text-sm text-muted">
-              Maintenance animals on decent hay often need no grain. Late pregnancy and real milk production usually do — measured, not free choice. Bucks and wethers on grain are how urinary stones happen. A clearing herd should live on browse, hay, and mineral.
+              Forage should be the base of the diet. Maintenance animals on decent hay often need little or no grain. Late pregnancy and real milk production usually need a measured amount, not free choice. Grain can contribute to urinary stones in bucks and wethers when the ration is high in phosphorus or the calcium-to-phosphorus balance is off. Balance any supplemented ration with a vet or nutrition adviser. A clearing herd should live mostly on browse, hay, and mineral.
             </p>
           </Card>
           <Card>
             <h2 className="text-xl">Mineral and baking soda</h2>
             <p className="mt-2 text-sm text-muted">
-              Loose mineral labeled for goats, in a covered feeder, all the time. It has to contain copper. Sheep mineral does not. A small free-choice baking soda station helps when rumen pH gets sloppy from too much grain. Salt is usually already in the mineral; don’t invent a second program.
+              Offer a loose mineral formulated for goats, in a covered feeder. Copper needs and toxicity risk depend on the whole diet and local forage. Sheep mineral is not automatically the right substitute, and some goat minerals can cause copper toxicity in sheep. If you keep both species, plan separate minerals with a veterinarian or nutrition adviser. A small free-choice baking soda station can help when rumen pH gets sloppy from too much grain. Salt is often already in the mineral; don’t invent a second program without a reason.
             </p>
           </Card>
         </div>

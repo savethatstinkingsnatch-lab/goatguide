@@ -1,6 +1,6 @@
 import { S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { r as cn } from "./router-0SQVn0KG.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/ui-Ur8DFsfx.js
+import { r as cn } from "./router-BJ7P3SNe.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/ui-DLTh075-.js
 var import_jsx_runtime = require_jsx_runtime();
 function Button({ variant = "primary", className, type = "button", ...props }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {

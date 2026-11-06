@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-DBIMnLia.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-D8UNmcTd.js
 var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "/workspace/src/routes/__root.tsx",
@@ -13,85 +13,85 @@ var tsrStartManifest = () => ({ routes: {
 			"/start",
 			"/year"
 		],
-		preloads: ["/assets/index-CxTDomIs.js"],
+		preloads: ["/assets/index-COqUYrCs.js"],
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-CxTDomIs.js"
+			src: "/assets/index-COqUYrCs.js"
 		} }]
 	},
 	"/": {
 		filePath: "/workspace/src/routes/index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/routes-gwMYYAo0.js",
-			"/assets/guide-DJfvhPQl.js",
-			"/assets/ui-CAi8hAqW.js"
+			"/assets/routes-Be6oXF3b.js",
+			"/assets/guide-EbNI0fYL.js",
+			"/assets/ui-5MQ6FqgT.js"
 		]
 	},
 	"/breeds": {
 		filePath: "/workspace/src/routes/breeds.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/breeds-oMQLtnTa.js",
-			"/assets/guide-DJfvhPQl.js",
-			"/assets/ui-CAi8hAqW.js"
+			"/assets/breeds-CUd7R0v4.js",
+			"/assets/guide-EbNI0fYL.js",
+			"/assets/ui-5MQ6FqgT.js"
 		]
 	},
 	"/care": {
 		filePath: "/workspace/src/routes/care.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/care-CtmsrbGj.js",
-			"/assets/ui-CAi8hAqW.js",
-			"/assets/milk-box-byG-ldVz.js"
+			"/assets/care-Bb-z3DLb.js",
+			"/assets/ui-5MQ6FqgT.js",
+			"/assets/milk-box-CfunIkYz.js"
 		]
 	},
 	"/clearing": {
 		filePath: "/workspace/src/routes/clearing.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/clearing-PlpbxKHn.js",
-			"/assets/guide-DJfvhPQl.js",
-			"/assets/ui-CAi8hAqW.js"
+			"/assets/clearing-DxbjNkV3.js",
+			"/assets/guide-EbNI0fYL.js",
+			"/assets/ui-5MQ6FqgT.js"
 		]
 	},
 	"/glossary": {
 		filePath: "/workspace/src/routes/glossary.tsx",
 		children: void 0,
-		preloads: ["/assets/glossary-Byg4MgqG.js", "/assets/ui-CAi8hAqW.js"]
+		preloads: ["/assets/glossary-3POrS-Am.js", "/assets/ui-5MQ6FqgT.js"]
 	},
 	"/health": {
 		filePath: "/workspace/src/routes/health.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/health-BJDXo1Kb.js",
-			"/assets/guide-DJfvhPQl.js",
-			"/assets/ui-CAi8hAqW.js"
+			"/assets/health-Fa-dUoCb.js",
+			"/assets/guide-EbNI0fYL.js",
+			"/assets/ui-5MQ6FqgT.js"
 		]
 	},
 	"/here": {
 		filePath: "/workspace/src/routes/here.tsx",
 		children: void 0,
-		preloads: ["/assets/here-VJ0bR6Do.js", "/assets/ui-CAi8hAqW.js"]
+		preloads: ["/assets/here-B0FOds4O.js", "/assets/ui-5MQ6FqgT.js"]
 	},
 	"/start": {
 		filePath: "/workspace/src/routes/start.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/start-DxYszI5g.js",
-			"/assets/guide-DJfvhPQl.js",
-			"/assets/ui-CAi8hAqW.js",
-			"/assets/milk-box-byG-ldVz.js"
+			"/assets/start-CKkbrSSx.js",
+			"/assets/guide-EbNI0fYL.js",
+			"/assets/ui-5MQ6FqgT.js",
+			"/assets/milk-box-CfunIkYz.js"
 		]
 	},
 	"/year": {
 		filePath: "/workspace/src/routes/year.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/year-DAOWai4O.js",
-			"/assets/guide-DJfvhPQl.js",
-			"/assets/ui-CAi8hAqW.js"
+			"/assets/year-CAk055L6.js",
+			"/assets/guide-EbNI0fYL.js",
+			"/assets/ui-5MQ6FqgT.js"
 		]
 	}
 } });

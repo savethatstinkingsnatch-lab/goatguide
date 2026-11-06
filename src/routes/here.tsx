@@ -11,8 +11,8 @@ const steps = [
   "Buy at least two goats (they are herd animals).",
   "Finish woven + electric fence before they arrive.",
   "Quarantine and ask for CAE/CL/Johne’s tests.",
-  "Feed hay and goat mineral; almost no grain for wethers.",
-  "Put CDT and FAMACHA on the calendar.",
+  "Feed forage first and a goat-formulated mineral. Keep grain small, and balance any supplement.",
+  "Put CDT on the calendar. Score eyelids with FAMACHA only after formal training and certification.",
   "Find a goat vet before kidding season.",
 ];
 

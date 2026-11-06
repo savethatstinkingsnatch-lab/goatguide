@@ -1,9 +1,9 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { i as fenceSteps, n as businessChecks, o as plants, r as contractPoints } from "./guide-OW7O4lDa.mjs";
+import { i as fenceSteps, n as businessChecks, o as plants, r as contractPoints } from "./guide-FvRMF8pV.mjs";
 import { J as require_react, S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { n as useGuide, r as cn } from "./router-0SQVn0KG.mjs";
-import { a as FieldLabel, c as PageIntro, i as Choice, l as TextInput, n as Card, o as Frame, r as CheckRow, s as Note, t as Button } from "./ui-Ur8DFsfx.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/clearing-Dxd7dEaQ.js
+import { n as useGuide, r as cn } from "./router-BJ7P3SNe.mjs";
+import { a as FieldLabel, c as PageIntro, i as Choice, l as TextInput, n as Card, o as Frame, r as CheckRow, s as Note, t as Button } from "./ui-DLTh075-.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/clearing-BlnJlp_9.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 /** Goat-days to defoliate one acre. Roots usually need a second visit. */
@@ -452,7 +452,7 @@ function ClearingPage() {
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, { children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "text-sm font-medium text-muted",
-						children: "Work order"
+						children: "Rough plan"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 						className: "mt-1 text-2xl",
@@ -533,13 +533,13 @@ function ClearingPage() {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 						className: "mt-4 text-sm text-muted",
 						children: [
-							"Planning rate for this brush and slope: ",
+							"Rough example only: about ",
 							plan.gdPerAcre,
-							" goat-days per acre. A week on site, instead of ",
+							" goat-days per acre for this brush and slope setting, so a week on site instead of ",
 							plan.days,
-							" days, would want about ",
+							" days would want about ",
 							plan.herdForWeek,
-							" goats."
+							" goats. Real days depend on animal size, the plants, how dense they are, season, terrain, and what “cleared” means. Walk the site and adjust. Control often takes repeated visits over more than one season."
 						]
 					}),
 					plan.days > 14 ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
@@ -549,7 +549,7 @@ function ClearingPage() {
 				] }), forHire ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, { children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "text-sm font-medium text-muted",
-						children: "Quote range"
+						children: "Example quote, not a bid"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 						className: "mt-1 font-display text-3xl tabular-nums",
@@ -622,9 +622,13 @@ function ClearingPage() {
 							})
 						]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 						className: "mt-3 text-sm text-muted",
-						children: plan.contribution < 0 ? "The low end does not cover the hours and wear you entered. Raise the goat-day rate or mobilization before you send this." : "The low end still covers the hours, fence wear, and fuel entered above. The high end is room for access you have not seen yet."
+						children: [
+							plan.contribution < 0 ? "At the rates you entered, the low end of this example does not cover the hours and wear. Raise the goat-day rate or mobilization before you treat it as a price." : "At the rates you entered, the low end of this example still covers the hours, fence wear, and fuel. The high end is room for access you have not seen yet.",
+							" ",
+							"Price, days, and paddocks are rough. Adjust them after you walk the brush. Control can take repeated visits over multiple seasons."
+						]
 					}),
 					!ownsFence ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 						className: "mt-2 text-sm text-muted",
@@ -663,17 +667,17 @@ function ClearingPage() {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 						className: "mt-3 text-sm text-muted",
 						children: [
-							"Same acres, at ",
+							"Same acres, using the example rates (",
 							money(Number(rate) || 0),
-							" per goat-day plus a ",
+							" per goat-day plus ",
 							money(Number(mob) || 0),
-							" mobilization and no travel. Doing it yourself is about ",
+							" mobilization and no travel). Doing it yourself is roughly ",
 							plan.ownHours,
 							" hours and ",
 							money(plan.ownCost),
 							" in time and wear if your hour is worth ",
 							money(Number(wage) || 0),
-							". Open “Rent the herd out” to change those rates."
+							". These are planning figures, not a bid. Open “Rent the herd out” to change the rates, then adjust after you see the site. Control often takes more than one season."
 						]
 					})
 				] })]
@@ -806,7 +810,7 @@ function ClearingPage() {
 		}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 			className: "mt-8 text-sm text-muted",
-			children: "Goat-days are a planning rate for a real defoliation, not a promise the roots are dead. Thickets often need two seasons. Voltage, toxic plants, and local fence law are your problem on the day, not the calculator’s."
+			children: "These goat-day, fence, and price figures are rough planning examples. They move with animal size, forage, brush species and density, season, terrain, and the result you actually want. Watch the site and change the plan. Control can take repeated visits over multiple seasons. Voltage, toxic plants, and local fence law are still your problem on the day."
 		})
 	] });
 }

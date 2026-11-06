@@ -251,7 +251,7 @@ function ClearingPage() {
 
         <div className="space-y-4">
           <Card>
-            <p className="text-sm font-medium text-muted">Work order</p>
+            <p className="text-sm font-medium text-muted">Rough plan</p>
             <h2 className="mt-1 text-2xl">
               {plan.paddocks === 1 ? "One paddock" : `${plan.paddocks} paddocks, same net`}
             </h2>
@@ -280,7 +280,7 @@ function ClearingPage() {
               <dd className="tabular-nums">{plan.hayLb} lb/day</dd>
             </dl>
             <p className="mt-4 text-sm text-muted">
-              Planning rate for this brush and slope: {plan.gdPerAcre} goat-days per acre. A week on site, instead of {plan.days} days, would want about {plan.herdForWeek} goats.
+              Rough example only: about {plan.gdPerAcre} goat-days per acre for this brush and slope setting, so a week on site instead of {plan.days} days would want about {plan.herdForWeek} goats. Real days depend on animal size, the plants, how dense they are, season, terrain, and what “cleared” means. Walk the site and adjust. Control often takes repeated visits over more than one season.
             </p>
             {plan.days > 14 ? (
               <p className="mt-2 text-sm">
@@ -291,7 +291,7 @@ function ClearingPage() {
 
           {forHire ? (
             <Card>
-              <p className="text-sm font-medium text-muted">Quote range</p>
+              <p className="text-sm font-medium text-muted">Example quote, not a bid</p>
               <p className="mt-1 font-display text-3xl tabular-nums">
                 {money(plan.low)}–{money(plan.high)}
               </p>
@@ -325,8 +325,9 @@ function ClearingPage() {
               </dl>
               <p className="mt-3 text-sm text-muted">
                 {plan.contribution < 0
-                  ? "The low end does not cover the hours and wear you entered. Raise the goat-day rate or mobilization before you send this."
-                  : "The low end still covers the hours, fence wear, and fuel entered above. The high end is room for access you have not seen yet."}
+                  ? "At the rates you entered, the low end of this example does not cover the hours and wear. Raise the goat-day rate or mobilization before you treat it as a price."
+                  : "At the rates you entered, the low end of this example still covers the hours, fence wear, and fuel. The high end is room for access you have not seen yet."}{" "}
+                Price, days, and paddocks are rough. Adjust them after you walk the brush. Control can take repeated visits over multiple seasons.
               </p>
               {!ownsFence ? (
                 <p className="mt-2 text-sm text-muted">
@@ -345,7 +346,7 @@ function ClearingPage() {
                 {money(plan.low)}–{money(plan.high)}
               </p>
               <p className="mt-3 text-sm text-muted">
-                Same acres, at {money(Number(rate) || 0)} per goat-day plus a {money(Number(mob) || 0)} mobilization and no travel. Doing it yourself is about {plan.ownHours} hours and {money(plan.ownCost)} in time and wear if your hour is worth {money(Number(wage) || 0)}. Open “Rent the herd out” to change those rates.
+                Same acres, using the example rates ({money(Number(rate) || 0)} per goat-day plus {money(Number(mob) || 0)} mobilization and no travel). Doing it yourself is roughly {plan.ownHours} hours and {money(plan.ownCost)} in time and wear if your hour is worth {money(Number(wage) || 0)}. These are planning figures, not a bid. Open “Rent the herd out” to change the rates, then adjust after you see the site. Control often takes more than one season.
               </p>
             </Card>
           )}
@@ -459,7 +460,7 @@ function ClearingPage() {
       </section>
 
       <p className="mt-8 text-sm text-muted">
-        Goat-days are a planning rate for a real defoliation, not a promise the roots are dead. Thickets often need two seasons. Voltage, toxic plants, and local fence law are your problem on the day, not the calculator’s.
+        These goat-day, fence, and price figures are rough planning examples. They move with animal size, forage, brush species and density, season, terrain, and the result you actually want. Watch the site and change the plan. Control can take repeated visits over multiple seasons. Voltage, toxic plants, and local fence law are still your problem on the day.
       </p>
     </Frame>
   );

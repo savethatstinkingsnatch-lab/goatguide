@@ -1,6 +1,6 @@
 import { S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { c as PageIntro, o as Frame } from "./ui-Ur8DFsfx.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/glossary-Ch8c6lA8.js
+import { c as PageIntro, o as Frame } from "./ui-DLTh075-.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/glossary-BaFoJkr8.js
 var import_jsx_runtime = require_jsx_runtime();
 var terms = [
 	["Doe", "Female goat."],
@@ -9,11 +9,11 @@ var terms = [
 	["Kid", "Baby goat."],
 	["Browse", "Leaves, brush, and weeds goats prefer over lawn grass."],
 	["CDT", "Vaccine for Clostridium C and D plus tetanus."],
-	["FAMACHA", "Eyelid-color check for barber-pole worm anemia."],
+	["FAMACHA", "A trained, certified eyelid-color screen for anemia associated with barber-pole worm. A pale lid does not name the cause or the treatment."],
 	["CAE", "Caprine arthritis encephalitis (virus; milk/contact)."],
 	["CL", "Caseous lymphadenitis (abscess disease)."],
 	["Johne’s", "Chronic gut disease; hard to clear from a herd."],
-	["Urinary calculi", "Stones that block bucks/wethers; linked to wrong grain rations."],
+	["Urinary calculi", "Stones that can block bucks and wethers. Grain can contribute when the ration is high in phosphorus or the calcium-to-phosphorus ratio is off."],
 	["Electronet", "Portable electric net fencing for goats."],
 	["Pasteurize", "Heat milk to kill germs before drinking."]
 ];
