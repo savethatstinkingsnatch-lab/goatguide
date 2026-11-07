@@ -10,7 +10,7 @@ export const Route = createRootRoute({
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Goats: Goatstead" },
-      { name: "description", content: "A field guide to raising goats, fencing them on brush, and renting the herd out to clear land." },
+      { name: "description", content: "Volume 27 of The Education Revolution, by Blue and the Awesome Dudes. A field guide to raising goats, fencing them on brush, and renting the herd out to clear land." },
       { name: "theme-color", content: "#f3f1ec" },
     ],
     links: [
